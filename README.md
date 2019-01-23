@@ -3,8 +3,7 @@ This project aims to classify lung nodules as benign or malignant using support-
 
 A classification rate of 73% (ROC) was achieved.
 
-1. Download the image data from: https://wiki.cancerimagingarchive.net/display/public/lungx+spie-aapm-nci+lung+nodule+classification+challenge
-2. Run Auto Lung Nodule Cropping 2D.ipynb. The file automatically crops all the nodules into 64x64 images. Changes to the filepath will be required.
-3. Run the 2D CT Image Preprocessing.ipynb. This step is not automated and will require additional work to be done to clean the images so that only the lung nodule remains.
-4. Run the Feature Extraction and PCA v2.ipynb. This converts the image data into numbers to be fed to the SVM file.
-5. Run SVM v2.ipynb to implement the support-vector machines algorithm for lung nodule classification.
+1. The raw image data can be downloaded from: https://wiki.cancerimagingarchive.net/display/public/lungx+spie-aapm-nci+lung+nodule+classification+challenge
+2. For the purposes of streamlining the preprocessing step, the images have automatically been cropped into 64x64 tiff images and cleaned so that only the nodule remains (parts of the lung and other objects have been removed). These can be found in the '6. Clean Crop' folder.
+4. Run the Feature Extraction and PCA.ipynb. file. This converts the image data into numbers so that it can be fed to the SVM file.
+5. Run the SVM.ipynb file to implement the support-vector machines algorithm for lung nodule classification.
