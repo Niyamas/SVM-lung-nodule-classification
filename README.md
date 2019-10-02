@@ -5,8 +5,7 @@ A classification rate of 73% (ROC) was achieved.
 
 1. The raw image data can be downloaded from: https://wiki.cancerimagingarchive.net/display/public/lungx+spie-aapm-nci+lung+nodule+classification+challenge
 2. For the purposes of streamlining the preprocessing step, the images have automatically been cropped into 64x64 tiff images and cleaned so that only the nodule remains (parts of the lung and other objects have been removed). These can be found in the '6. Clean Crop' folder.
-3. Place all ipynb files and csv files into a shared folder. You may need Jupyter Notebook to read the ipynb files.
-4. Run the Feature Extraction and PCA.ipynb. file. This converts the image data into numbers so that it can be fed to the SVM file.
-5. Run the SVM.ipynb file to implement the support-vector machines algorithm for lung nodule classification and calculate its performance.
+3. Place all ipynb files and csv files into a shared folder. You may need Jupyter Notebook to read the ipynb files and change the file paths.
+4. Run the SVM Lung Nodule Classification.ipynb. file. This converts the image data into numbers so that it can be used in the SVM algorithm.
 
 The methodology of the project is further explained in the Final Paper word document.
