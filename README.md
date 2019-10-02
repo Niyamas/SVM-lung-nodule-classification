@@ -1,5 +1,5 @@
 # SVM-lung-nodule-classification
-This project aims to classify lung nodules as benign or malignant using support-vector machines (SVM) in Python. The images used were from the 2015 LUNGx Challenge. This originally was a part of my capstone project for class. Images download link: https://wiki.cancerimagingarchive.net/display/public/lungx+spie-aapm-nci+lung+nodule+classification+challenge
+This project aims to classify lung nodules as benign or malignant using support-vector machines (SVM) in Python. The images used were from the 2015 LUNGx Challenge. This originally was a part of my capstone project for class. [Images download link](https://wiki.cancerimagingarchive.net/display/public/lungx+spie-aapm-nci+lung+nodule+classification+challenge)
 
 A classification rate of 73% (ROC) was achieved.
 
