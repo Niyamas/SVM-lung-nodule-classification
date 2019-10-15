@@ -10,4 +10,4 @@ A classification rate of 73% (ROC) was achieved.
 
 The methodology of the project is further explained in the Final Paper word document.
 
-[Alternative link to code.](https://nbviewer.jupyter.org/github/Niyamas/SVM-lung-nodule-classification/blob/master/SVM%20Lung%20Nodule%20Classification.ipynb)
+[Alternative link to code](https://nbviewer.jupyter.org/github/Niyamas/SVM-lung-nodule-classification/blob/master/SVM%20Lung%20Nodule%20Classification.ipynb)
