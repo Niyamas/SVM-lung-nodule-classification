@@ -9,4 +9,5 @@ A classification rate of 73% (ROC) was achieved.
 4. Run the SVM Lung Nodule Classification.ipynb. file. This converts the image data into numbers so that it can be used in the SVM algorithm.
 
 The methodology of the project is further explained in the Final Paper word document.
+
 [Alternative link to code.](https://nbviewer.jupyter.org/github/Niyamas/SVM-lung-nodule-classification/blob/master/SVM%20Lung%20Nodule%20Classification.ipynb)
